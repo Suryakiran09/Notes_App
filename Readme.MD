@@ -8,13 +8,13 @@ Install docker and start the docker then
 
 open the folder and type
 
-'''bash
+'''shell
 docker-compose build
 '''
 
 then 
 
-'''bash
+'''shell
 docker-compose up
 '''
 
@@ -25,31 +25,31 @@ Choice 2:
 
 Open the folder
 
-'''bash
+'''shell
 cd env/Scripts
 '''
 
-'''bash
+'''shell
 ./activate
 '''
 
-'''bash
+'''shell
 cd ../..
 '''
 
-'''bash
+'''shell
 pip install -r "requirements.txt"
 '''
 
-'''bash
+'''shell
 python manage.py makemigrations
 '''
 
-'''bash
+'''shell
 python manage.py migrate
 '''
 
-'''bash
+'''shell
 python manage.py runserver
 '''
 
@@ -58,21 +58,21 @@ The application will be running on 127.0.0.1:8000 in your web browser
 
 next time you try to run this application no need of all this just activate the environment
 
-'''bash
+'''shell
 cd env/Scripts
 '''
 
-'''bash
+'''shell
 ./activate
 '''
 
-'''bash
+'''shell
 cd ../..
 '''
 
 then
 
-'''bash
+'''shell
 python manage.py runserver
 '''
 
