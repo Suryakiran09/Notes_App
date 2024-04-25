@@ -8,15 +8,15 @@ Install docker and start the docker then
 
 open the folder and type
 
-'''shell
+```shell
 docker-compose build
-'''
+```
 
 then 
 
-'''shell
+```shell
 docker-compose up
-'''
+```
 
 The application will be running on localhost:8000 port in your web browser
 
@@ -25,55 +25,57 @@ Choice 2:
 
 Open the folder
 
-'''shell
+```shell
 cd env/Scripts
-'''
+```
 
-'''shell
+```shell
 ./activate
-'''
+```
 
-'''shell
+```shell
 cd ../..
-'''
+```
 
-'''shell
+```shell
 pip install -r "requirements.txt"
-'''
+```
 
-'''shell
+```shell
 python manage.py makemigrations
-'''
+```
 
-'''shell
+```shell
 python manage.py migrate
-'''
+```
 
-'''shell
+```shell
 python manage.py runserver
-'''
+```
 
 The application will be running on 127.0.0.1:8000 in your web browser
 
 
 next time you try to run this application no need of all this just activate the environment
 
-'''shell
+```shell
 cd env/Scripts
-'''
+```
 
-'''shell
+```shell
 ./activate
-'''
+```
 
-'''shell
+```shell
 cd ../..
-'''
+```
 
 then
 
-'''shell
+```shell
 python manage.py runserver
-'''
+```
 
 The application will be running on 127.0.0.1:8000 in your web browser
+
+![alt text](image.png)
