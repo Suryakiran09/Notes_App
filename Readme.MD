@@ -9,13 +9,13 @@ Install docker and start the docker then
 open the folder and type
 
 '''shell
-docker-compose build
+  docker-compose build
 '''
 
 then 
 
 '''shell
-docker-compose up
+  docker-compose up
 '''
 
 The application will be running on localhost:8000 port in your web browser
@@ -26,15 +26,15 @@ Choice 2:
 Open the folder
 
 '''shell
-cd env/Scripts
+  cd env/Scripts
 '''
 
 '''shell
-./activate
+  ./activate
 '''
 
 '''shell
-cd ../..
+  cd ../..
 '''
 
 '''shell
