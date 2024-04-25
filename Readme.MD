@@ -77,8 +77,5 @@ python manage.py runserver
 ```
 
 The application will be running on 127.0.0.1:8000 in your web browser
-<<<<<<< HEAD
 
 ![alt text](image.png)
-=======
->>>>>>> 5f4b8a524e1784978888086d3f5be6ba0ad0ad6c
