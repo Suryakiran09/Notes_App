@@ -1,6 +1,6 @@
 # You can see the endpoints when you start the application
 
-#The swagger api documentation is added to this application
+# The swagger api documentation is added to this application
 
 ## Choice 1:
 
@@ -12,7 +12,7 @@
 docker-compose build
 ```
 
-then 
+### then 
 
 ```shell
 docker-compose up
@@ -56,7 +56,7 @@ python manage.py runserver
 #### The application will be running on 127.0.0.1:8000 in your web browser
 
 
-next time you try to run this application no need of all this just activate the environment
+### next time you try to run this application no need of all this just activate the environment
 
 ```shell
 cd env/Scripts
