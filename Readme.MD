@@ -1,12 +1,12 @@
-You can see the endpoints when you start the application
+# You can see the endpoints when you start the application
 
-The swagger api documentation is added to this application
+#The swagger api documentation is added to this application
 
-Choice 1:
+## Choice 1:
 
-Install docker and start the docker then
+### Install docker and start the docker then
 
-open the folder and type
+### open the folder and type
 
 ```shell
 docker-compose build
@@ -18,12 +18,12 @@ then
 docker-compose up
 ```
 
-The application will be running on localhost:8000 port in your web browser
+#### The application will be running on localhost:8000 port in your web browser
 
 
-Choice 2:
+## Choice 2:
 
-Open the folder
+### Open the folder
 
 ```shell
 cd env/Scripts
@@ -53,7 +53,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-The application will be running on 127.0.0.1:8000 in your web browser
+#### The application will be running on 127.0.0.1:8000 in your web browser
 
 
 next time you try to run this application no need of all this just activate the environment
