@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Running from cmd would be preferred over terminal
 
 You can see the endpoints when you start the application
@@ -9,24 +8,9 @@ The swagger api documentation is added to this application You can see API docum
 121.0.0.1:8000/swagger/
 ```
 
-Due to migration error in docker configuration file
-=======
-# You can see the endpoints when you start the application
+Due to migration error in docker configuration file I have removed it
 
-# The swagger api documentation is added to this application
-
-## Choice 1:
-
-### Install docker and start the docker then
-
-### open the folder and type
-
-```shell
-docker-compose build
 ```
-
-### then 
->>>>>>> 4c2248adfc37f4415b0a04b784bf4044acecb62d
 
 Please run the code manually
 
@@ -45,7 +29,6 @@ DATABASES = {
 }
 ```
 
-<<<<<<< HEAD
 
 
 =======
@@ -53,7 +36,6 @@ DATABASES = {
 
 
 ## Choice 2:
->>>>>>> 4c2248adfc37f4415b0a04b784bf4044acecb62d
 
 ### Open the folder
 
