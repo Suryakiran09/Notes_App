@@ -1,27 +1,34 @@
+# Running from cmd would be preferred over terminal
+
 You can see the endpoints when you start the application
 
-The swagger api documentation is added to this application
+The swagger api documentation is added to this application You can see API documentation on 121.0.0.1:8000/swagger/ if using docker
 
-Choice 1:
-
-Install docker and start the docker then
-
-open the folder and type
-
-```shell
-docker-compose build
+```bash
+121.0.0.1:8000/swagger/
 ```
 
-then 
+Due to migration error in docker configuration file
 
-```shell
-docker-compose up
+Please run the code manually
+
+Database configuration
+
+python```
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'task_app',
+        'USER': 'surya',
+        'PASSWORD': '123',
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
+    }
+}
 ```
 
-The application will be running on localhost:8000 port in your web browser
 
 
-Choice 2:
 
 Open the folder
 
@@ -77,8 +84,34 @@ python manage.py runserver
 ```
 
 The application will be running on 127.0.0.1:8000 in your web browser
-<<<<<<< HEAD
 
 ![alt text](image.png)
-=======
->>>>>>> 5f4b8a524e1784978888086d3f5be6ba0ad0ad6c
+
+
+Open frontend folder(Install React)
+
+```bash
+cd frontend
+```
+
+```bash
+set NODE_OPTIONS="--openssl-legacy-provider"
+```
+
+```bash
+npm install
+```
+
+```bash
+npm start
+```
+
+The application will be running on localhost:3000 in your web browser
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-4.png)
+
+![alt text](image-5.png)
