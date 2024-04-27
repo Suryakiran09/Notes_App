@@ -2,10 +2,10 @@
 
 You can see the endpoints when you start the application
 
-The swagger api documentation is added to this application You can see API documentation on 121.0.0.1:8000/swagger/ if using docker
+The swagger api documentation is added to this application You can see API documentation on 127.0.0.1:8000/swagger/ if using docker
 
 ```bash
-121.0.0.1:8000/swagger/
+127.0.0.1:8000/swagger/
 ```
 
 Due to migration error in docker configuration file I have removed it
