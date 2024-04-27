@@ -29,14 +29,6 @@ DATABASES = {
 }
 ```
 
-
-
-=======
-#### The application will be running on localhost:8000 port in your web browser
-
-
-## Choice 2:
-
 ### Open the folder
 
 ```shell
